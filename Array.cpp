@@ -13,4 +13,7 @@ int main() {
 
     // Ganti nilai index ke 1
     aku[1] = 200;
+
+    // Tampilkan data setelah diubah
+    cout << "Data pada index 1 = " << aku[1] << endl;
 }
