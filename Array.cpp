@@ -41,4 +41,10 @@ int main() {
     cout << "Data keempat = " << kamu[3] << endl;
     cout << "Data kelima = " << kamu[4] << endl;
     cout << endl;
+
+    //mengisi dengan perulangan for
+    for (int i = 0; i < 5; i++) {
+        cout << "Data index ke-" << i << " = ";
+        cin >> kamu[i];
+    }
 }
