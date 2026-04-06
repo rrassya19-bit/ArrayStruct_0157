@@ -11,4 +11,16 @@ struct Orang {
 int main() {
     // Deklarasi variabel bertipe struct Orang
     Orang mhs;
+
+    // Input data
+    cout << "Nama : ";
+    cin >> mhs.nama;          // Masukkan nama ke dalam struct
+
+    cout << "Alamat : ";
+    cin >> mhs.alamat;        // Masukkan alamat ke dalam struct
+
+    cout << "Umur : ";
+    cin >> mhs.umur;          // Masukkan umur ke dalam struct
+
+    cout << endl;             // Baris baru untuk tampilan lebih rapi
 }
