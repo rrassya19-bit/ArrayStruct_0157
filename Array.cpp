@@ -34,7 +34,7 @@ int main() {
     cin >> kamu[4];
     cout << endl;
 
-    // Menampilkan semua data yang sudah diinput ke array kamu satu per satu
+    // Mengisi data dengan menggunakan perulangan for
     cout << "Data pertama = " << kamu[0] << endl;
     cout << "Data kedua = " << kamu[1] << endl;
     cout << "Data ketiga = " << kamu[2] << endl;
@@ -43,9 +43,14 @@ int main() {
     cout << endl;
 
     //mengisi dengan perulangan for
-    for (int i = 0; i < 5; i++) {
+    for (int i = 0; i < 4; i++) {
         cout << "Data index ke-" << i << " = ";
         cin >> kamu[i];
     }
     cout << endl;
+
+    //menampilkan dengan menggunakan perulangan for
+    for (int i = 0; i < 4; i++) {
+        cout << "Data ke-" << i << " = " << kamu[i] << endl;
+    }
 }
