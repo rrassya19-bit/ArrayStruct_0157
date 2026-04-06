@@ -9,5 +9,6 @@ struct Orang {
 };
 
 int main() {
-    
+    // Deklarasi variabel bertipe struct Orang
+    Orang mhs;
 }
