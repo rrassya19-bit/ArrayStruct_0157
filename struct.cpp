@@ -7,3 +7,7 @@ struct Orang {
     string alamat;   // Menyimpan alamat (teks)
     int umur;        // Menyimpan umur (angka bulat)
 };
+
+int main() {
+    
+}
