@@ -35,6 +35,7 @@ int main() {
     cout << endl;
 
     // Mengisi data dengan menggunakan perulangan for
+    cout << "\n=== Data yang telah diinput ===" << endl;
     cout << "Data pertama = " << kamu[0] << endl;
     cout << "Data kedua = " << kamu[1] << endl;
     cout << "Data ketiga = " << kamu[2] << endl;
