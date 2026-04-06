@@ -10,4 +10,7 @@ int main() {
 
     // Tampilkan data awal array aku
     cout << "Data pada index 1 = " << aku[1] << endl;
+
+    // Ganti nilai index ke 1
+    aku[1] = 200;
 }
